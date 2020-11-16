@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ray of sunshine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Flogo.png?v=1605007511767">
+    <script src="script.js" defer></script> 
+  </head>  
+  
+
+<body class="index" id="body">
+
+<ul class="meny">
+<li><a class="menylinks" id="menylinks" href="index.html"><img class="logga" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Flogo.png?v=1605007511767" /></a></li>
+</ul>
+
+<div class="sunrays" id="sunrays">
+  <img id="Solstrale1" class="sunray Solstrale_1" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fsolstrale.png?v=1604504537545" alt="decorative sunshine animation"/>
+  <img id="Solstrale2" class="sunray Solstrale_2" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fsolstrale2.png?v=1605010126247" alt="decorative sunshine animation" />
+  <img id="Solstrale3" class="sunray Solstrale_3" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fsolstrale.png?v=1604504537545"  alt="decorative sunshine animation"/>
+</div> 
+  
+<!-- these are the clouds that moves in and are hidden from the start: -->
+<img id="cloud5" class="cloud5" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fbrightcloud.png?v=1604502869818" alt="decorative cloud animation" />
+<img id="cloud6" class="cloud6" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fbrightcloud2.png?v=1604569157699" alt="decorative cloud animation" />
+  
+<!-- here goes the frontpage content -->
+<div id="frontPage" class="frontpage">
+
+<!-- this is the background that fades in (it is hidden from the start) -->
+  <div id="backgroundtrans" class="transparent">
+  </div>  
+  
+<img class="uppeh" id="uppeh" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fuppeh.png?v=1604588437131" alt="decorative cloud animation" />
+<img class="uppev" id="uppev" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fuppev.png?v=1604588844142" alt="decorative cloud animation"/>
+<img class="nereh" id="nereh" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fnereh.png?v=1604589104921" alt="decorative cloud animation"/>
+<img class="nerev" id="nerev" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fnerev.png?v=1604589477998" alt="decorative cloud animation"/>
+  
+    <div class="darkcloud">
+      <h1 class="text" id="badtext">Having a bad day?</h1>
+      <img id="darkcloud" class="darkcloudimage" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fdarkcloud.png?v=1604502863243" alt="dark cloud animation"/>
+    </div>
+      <button class="hitme" id="hitme" onclick="brightness();">Let the sun shine!</button>
+    <div>
+    <img class="thunder" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fblixt%20copy.gif?v=1604931964561" alt="decorative thunder animation">
+  </div>
+  
+      <div>
+    <img class="thunder" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fblixt%20copy.gif?v=1604931964561" alt="decorative thunder animation">
+  </div>
+</div>
+
+<!-- here goes the text/pic-generator content! -->
+  
+<div id="brightnesstext" class="brightnesstext">    
+ 
+<ul class="meny">
+<li><a class="menylinks" href="index.html"><img class="logga" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Flogo.png?v=1605007511767" /></a></li>
+</ul>
+
+
+  <img class="cloud1" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fbrightcloud.png?v=1604502869818" alt="decorative cloud animation"/>
+  <img class="cloud2" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fbrightcloud2.png?v=1604569157699" alt="decorative cloud animation"/>
+ 
+<!-- this is the textcontent -->
+  <div class="generatetext" id="generatetext">
+  <div class="brighttext">
+    <p></p> 
+  </div>
+  
+  <div class="random">
+    <img class="randomize1" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fcircle.png?v=1605010083178" alt="decorative image buttonbackground"/>
+    <button class="dicebutton" onclick="gentext();"></button>            
+    <button class="filter" onclick="changetopics();">PICS</button>   
+  </div>
+  </div>
+  
+<!-- this is the piccontent -->
+  <div id="generatepics" class="generatepics">
+    <div class="brightimage">
+    <img id="image" class="image" alt="Funny GIF:s showing cute animals and more"/>
+  </div>
+  
+  <div class="random">
+    <img class="randomize1" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fcircle.png?v=1605010083178" alt="decorative image buttonbackground"/>
+    <button class="dicebutton" onclick="genpic();"></button>            
+    <button class="filter" onclick="changetotext();">TEXT</button>        
+  </div>
+  </div>
+
+  <img class="hide" id="balloon" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fballon.png?v=1605539531290"/>
+  
+<!-- this is an amazing animation-->
+  <img class="giraff" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2FGiraffen.png?v=1604936664036"  alt="friendly giraff appearing to tell you are dope"/>
+  <img class="dope" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Fdope.png?v=1605005836658" onclick="hiddenanimation();" alt="friendly giraff appearing to tell you are dope"/>
+  <img class="hide" id="loop" src="https://cdn.glitch.com/e127c081-9d74-4b61-80e7-386a426b145a%2Floopbynils%20(kopia).png?v=1605538865017" alt="hidden animation" />
+</div>
+
+  
+<footer> 
+  <h3 class="text"> Made in Stockholm, Copyright © 2020 CavaScript. All Rights Reserved.</h3>
+</footer>
+
+</body>
+</html>
