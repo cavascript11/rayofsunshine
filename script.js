@@ -112,6 +112,11 @@ function hiddenanimation() {
   loop.className = 'loop';
 }
 
+function rainbow() {
+  var rainbow = document.getElementById('rainbow');  
+  rainbow.className = 'rainbow';
+}
+
 function gentext() {
   var word = [
     "Expose yourself to strong, pleasant sensations, like a pleasing smell or a favorite blanket",
