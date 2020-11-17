@@ -1,15 +1,21 @@
-function removerain() {
-    // Removes an element from the document
-    var element = document.getElementById("rainjs");
-    element.remove("rainjs");
+function stoprain() {
+  var canvas = document.getElementById('canvas');
+  canvas.style.display = 'none';
 }
 
 //start transition from frontpage to brightnesspage:
 function brightness() {
-  setTimeout(hej, 3000)
-  setTimeout(sunshine, 1000)
+  setTimeout(hej, 3000);
+  setTimeout(sunshine, 1000);
+  stoprain();
   
 //start clouds moviing out of screen:
+ //remove text and button:
+  var text = document.getElementById('badtext');
+  text.style.display = 'none';
+  var button = document.getElementById('hitme');
+  button.style.display = 'none';
+  
   var cloud1 = document.getElementById('uppeh');
   cloud1.className = "cloud1trans";  
   var cloud2 = document.getElementById('uppev');
@@ -24,12 +30,6 @@ function brightness() {
 //start background fading in:  
   var background = document.getElementById('backgroundtrans');
   background.className = "backgroundtrans";  
-  
-//remove text and button:
-  var text = document.getElementById('badtext');
-  text.style.display = 'none';
-  var button = document.getElementById('hitme');
-  button.style.display = 'none';
 }
 
 //move in clouds:
@@ -440,3 +440,5 @@ const animate = function() {
 setup();
 requestAnimationFrame(animate);
   }
+
+
