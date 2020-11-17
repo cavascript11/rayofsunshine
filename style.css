@@ -48,6 +48,10 @@ html{
   display: block;
 }
 
+.text {
+  cursor: pointer;
+}
+
 p {
     font-family: "helvetica", sans-serif;
     color: #500972;
@@ -87,7 +91,7 @@ ul {
 }
 
 .logga {
-  width: 40px;
+  width: 40p
   position: absolute;
 width: 48px;
 height: 47px;
@@ -757,16 +761,16 @@ Solstraleanimation*/
 
 @keyframes Solstrale_1__opacity__1 {
     from {
-        opacity: 0.5;
+        opacity: 0.0;
     }
 
     to {
-        opacity: 0,8;
+        opacity: 0,5;
     }
 }
 @keyframes Solstrale_1__opacity__2 {
     from {
-        opacity: 0,8;
+        opacity: 0,5;
     }
 
     to {
