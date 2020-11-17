@@ -298,6 +298,7 @@ h1 {
     width: 7%;
     left: 82%;
     top: 65%;
+    z-index: 999;
     transform: translateX(-50%) translateY(-50%);
     animation: dope__opacity__1 10000ms 0ms linear forwards, dope__opacity__2 100ms 10000ms linear forwards, dope__opacity__3 3700ms 10100ms linear forwards, dope__opacity__4 200ms 13800ms linear forwards;
 }
@@ -1169,7 +1170,7 @@ Solstraleanimation*/
 .loop {
     position: absolute;
     width: 30%;
-    z-index: 2;
+    z-index: 999;
     transform: translateX(-50%) translateY(-50%);
     animation: loopbynils_1__x__1 7000ms 0ms linear forwards, loopbynils_1__x__2 500ms 7000ms linear forwards, loopbynils_1__x__3 600ms 7500ms linear forwards, loopbynils_1__x__4 1900ms 8100ms linear forwards, loopbynils_1__y__1 7000ms 0ms linear forwards, loopbynils_1__y__2 700ms 7000ms linear forwards, loopbynils_1__y__3 700ms 7700ms linear forwards, loopbynils_1__rotation__1 7800ms 0ms linear forwards, loopbynils_1__rotation__2 600ms 7800ms linear forwards, loopbynils_1__rotation__3 1600ms 8400ms linear forwards;
 }
