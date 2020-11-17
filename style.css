@@ -15,13 +15,19 @@ html{
   display: none;
 }
 
+.rainbow {
+  position: absolute;
+  width: 102%;
+  top: 5%;
+  opacity: 0.4;
+}
+
 .sunrays {
   display: none;
   position: absolute;
   z-index: 0;
   width: 102%;
 }
-
 
 .brightness { 
     font-family: "helvetica", sans-serif;
